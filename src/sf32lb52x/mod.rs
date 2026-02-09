@@ -115,6 +115,7 @@ pub const DMAC2: dmac::Dmac = unsafe { dmac::Dmac::from_ptr(0x4000_1000usize as 
 pub const MAILBOX2: mailbox::Mailbox2 =
     unsafe { mailbox::Mailbox2::from_ptr(0x4000_2000usize as _) };
 pub const PATCH: patch::Patch = unsafe { patch::Patch::from_ptr(0x4000_4000usize as _) };
+pub const PTC2: ptc::Ptc = unsafe { ptc::Ptc::from_ptr(0x4000_c000usize as _) };
 pub const LPSYS_CFG: lpsys_cfg::LpsysCfg =
     unsafe { lpsys_cfg::LpsysCfg::from_ptr(0x4000_f000usize as _) };
 pub const LPSYS_AON: lpsys_aon::LpsysAon =
