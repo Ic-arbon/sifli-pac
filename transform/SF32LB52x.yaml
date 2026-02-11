@@ -15,6 +15,7 @@ includes:
   - common/bt_rfc.yaml
   - common/bt_phy.yaml
   - common/bt_mac.yaml
+  - common/ptc.yaml
 
 transforms:
   # ------------------------------ LPSYS ------------------------------
